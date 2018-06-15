@@ -1,0 +1,187 @@
+/*!
+ * ant.css, personal css based on the awesome Bootstrap - Agency v4.1.1 (https://startbootstrap.com/template-overviews/agency)
+ * Copyright Antoine Lavignotte
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
+ */
+
+/* Front page */
+header.masthead {
+  background-image: url("/img/etoile-2.jpg");
+}
+
+h2, h4 {
+  color: #154079;
+}
+
+section h3.section-subheading {
+  font-size: 24px;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 40px;
+  text-transform: none;
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.btn-primary {
+  background-color: #154079;
+  border-color: #154079;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #cceeff !important;
+  border-color: #cceeff !important;
+  color: #154079;
+}
+
+.btn-primary:active, .btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+}
+
+#mainNav {
+  background-color: #212529;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  right: 0;
+  padding: 13px;
+  text-transform: uppercase;
+  color: white;
+  border: 0;
+  background-color: #154079;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#mainNav .navbar-brand {
+  color: #ffffff;
+  font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+}
+
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: #cceeff;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-size: 90%;
+  font-weight: 400;
+  padding: 0.75em 0;
+  letter-spacing: 1px;
+  color: white;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #cceeff;
+}
+
+@media (min-width: 768px) {
+  header.masthead .intro-text {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+  header.masthead .intro-text .intro-lead-in {
+    font-size: 30px;
+    font-style: italic;
+    line-height: 40px;
+    margin-bottom: 10px;
+    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  header.masthead .intro-text .intro-sub-heading{
+    font-size: 30px;
+    font-style: italic;
+    line-height: 40px;
+    margin-bottom: 40px;
+    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  header.masthead .intro-text .intro-heading {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 75px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  header.masthead .intro-text .intro-logo-tsp {
+    width: 7em;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+  }
+  header.masthead .intro-text .intro-logo-imt {
+    width: 10em;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+  }
+}
+
+/* Teaching page */
+.text-primary {
+  color: #cceeff !important;
+}
+
+section div div div.col-md-6 {
+  margin-bottom: 40px;
+}
+
+p.text-muted {
+  margin-bottom: 0px;
+}
+
+div.course-module {
+  margin-bottom: 30px;
+}
+
+p.level {
+  font-style: italic;
+  color: #154079;
+}
+
+.service-heading {
+  margin: 0px 0;
+  text-transform: none;
+}
+
+div.coordinations, div.course {
+  margin-bottom: 20px;
+}
+
+div.old-course {
+  margin-bottom: 80px;
+}
+
+
+span.fa-stack {
+  margin-bottom: 20px;
+}
+
+/* Research page */
+div.research-theme {
+  margin-bottom: 40px;
+}
+
+div.projects {
+  margin-bottom: 20px;
+}
+
+div.project {
+  margin-bottom: 20px;
+}
+
+div.project b {
+  color: #154079;
+}
+
+h4.students {
+  margin-bottom: 20px;
+}
+
+div.student {
+  margin-bottom: 20px;
+}
+
+div.student b {
+  color: #154079;
+}
+
+/* Contact page */
+
