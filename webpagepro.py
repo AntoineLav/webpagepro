@@ -9,3 +9,6 @@ def hello_world():
 @app.route('/img/<path:path>')
 def send_img(path):
 	return send_from_directory('static/img', path)
+
+if __name__ == "__main__":
+    app.run(debug=False, host= '0.0.0.0')
